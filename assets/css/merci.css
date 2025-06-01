@@ -1,0 +1,47 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(145deg, #ffe4e1, #fff0f5);
+}
+.container {
+  text-align: center;
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #f57c00;
+  color: white;
+  text-decoration: none;
+  border-radius: 2rem;
+}
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+.bubble1 {
+  width: 200px;
+  height: 200px;
+  background: #f8bbd0;
+  top: -50px;
+  left: -50px;
+}
+.bubble2 {
+  width: 150px;
+  height: 150px;
+  background: #b2ebf2;
+  bottom: -50px;
+  right: -50px;
+}
